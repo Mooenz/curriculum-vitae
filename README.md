@@ -2,6 +2,6 @@
 My cv 
 
 
-https://mooenz.github.io/Curriculum-Vitae/
+https://mooenz.github.io/curriculum-vitae/
 
 Sorry, im worked for finish
