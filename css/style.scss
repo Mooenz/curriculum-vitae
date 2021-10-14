@@ -265,7 +265,8 @@ a {
       }
 
       &__buttons {
-        margin: 0 24px;
+        margin: 0 24px 24px;
+
 
         a {
           display: flex;
@@ -291,8 +292,6 @@ a {
         }
 
         .see-code {
-          margin: 0 0 24px;
-
           &:hover {
             color: var(--withe);
           }

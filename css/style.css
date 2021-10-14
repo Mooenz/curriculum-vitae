@@ -292,7 +292,7 @@ a {
 }
 
 .work__proyects .card__buttons {
-  margin: 0 24px;
+  margin: 0 24px 24px;
 }
 
 .work__proyects .card__buttons a {
@@ -318,10 +318,6 @@ a {
 .work__proyects .card__buttons .live-site:hover {
   background-color: var(--red-cherry);
   color: var(--withe);
-}
-
-.work__proyects .card__buttons .see-code {
-  margin: 0 0 24px;
 }
 
 .work__proyects .card__buttons .see-code:hover {
