@@ -195,7 +195,6 @@ a {
 
       h2 {
         font-size: 2.5rem;
-        font-weight: 2.6rem;
       }
 
       p {
@@ -204,6 +203,7 @@ a {
         letter-spacing: 0.05rem;
         color: var(--gray);
         max-width: 500px;
+        text-align: center;
       }
     }
     &--block {

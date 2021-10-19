@@ -218,7 +218,6 @@ a {
 
 .work__container .work__content h2 {
   font-size: 2.5rem;
-  font-weight: 2.6rem;
 }
 
 .work__container .work__content p {
@@ -227,6 +226,7 @@ a {
   letter-spacing: 0.05rem;
   color: var(--gray);
   max-width: 500px;
+  text-align: center;
 }
 
 .work__container--block {
