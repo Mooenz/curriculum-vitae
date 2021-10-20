@@ -7,8 +7,8 @@
   --withe: #f1f2f2;
   --red-cherry: #f53b57;
   // Fonts
-  --font-poppins: "Poppins", sans-serif;
-  --font-playfair: "Playfair Display", serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
 }
 
 // scroll
@@ -87,17 +87,18 @@ a {
       justify-content: center;
       align-items: center;
 
+      &:hover .nav__list-links,
+      .nav__list-links:hover {
+        display: flex;
+        flex-direction: column;
+      }
+
       .nav-burger {
         font-size: 28px;
 
         &:hover {
           color: var(--red-cherry);
         }
-      }
-
-      &:hover .nav__list-links,
-      .nav__list-links:hover {
-        display: inline-block;
       }
 
       .nav__list-links {
@@ -124,15 +125,24 @@ a {
 
 // content
 .content {
-  padding: 60px 24px;
+  padding: 60px 0;
   background-color: var(--black-intense);
+  width: 100%;
+  height: 800px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+
+  &__container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+  }
+
   &__left {
     text-align: center;
-    margin: 50px 0;
-    max-width: 1200px;
+    margin: 0 0 50px;
+
     img {
       border: 2px solid var(--withe);
       border-radius: 100px;
@@ -160,7 +170,7 @@ a {
 
   &__right {
     text-align: center;
-
+    max-width: 80%;
     h1 {
       font-size: 4rem;
       line-height: 4.6rem;
@@ -172,7 +182,7 @@ a {
       line-height: 2.5rem;
       letter-spacing: 0.1rem;
       color: var(--gray);
-      max-width: 500px;
+      margin: auto;
     }
   }
 }
@@ -181,9 +191,9 @@ a {
 // work
 .work {
   background-color: var(--black);
+  padding-top: 60px;
 
   &__container {
-    padding-top: 60px;
     // text-align: center;
 
     .work__content {
@@ -214,6 +224,7 @@ a {
   &__proyects {
     display: grid;
     grid-template-columns: auto;
+    place-content: center;
     gap: 30px;
     padding-bottom: 60px;
 
@@ -221,11 +232,12 @@ a {
       background-color: var(--black-light);
       border-radius: 10px;
       box-shadow: 0px 10px 30px -7px rgba(21, 21, 21, 0.8);
+      max-width: 370px;
 
       &__img {
         .img {
           min-width: 270px;
-          min-height: 200px;
+          height: 200px;
           background: var(--withe);
           border-radius: 10px 10px 0 0;
         }
@@ -295,7 +307,7 @@ a {
   font-weight: 400;
   text-align: center;
   &__content {
-    padding: 50px;
+    padding: 25px;
     p {
       color: var(--black-intense);
     }
