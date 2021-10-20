@@ -1,0 +1,32 @@
+.nav__container .menu {
+  width: auto;
+}
+
+.nav__container .menu:hover .nav__list-links,
+.nav__container .menu .nav__list-links:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav__container .menu .nav-burger {
+  display: none;
+}
+
+.nav__container .menu .nav__list-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: initial;
+  gap: 15px;
+  padding: 0;
+}
+/*# sourceMappingURL=mobile-large.css.map */

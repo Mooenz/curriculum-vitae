@@ -1,0 +1,25 @@
+.nav {
+  &__container {
+    .menu {
+      width: auto;
+
+      &:hover .nav__list-links,
+      .nav__list-links:hover {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .nav-burger {
+        display: none;
+      }
+
+      .nav__list-links {
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        gap: 15px;
+        padding: 0;
+      }
+    }
+  }
+}
