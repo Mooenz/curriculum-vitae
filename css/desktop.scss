@@ -1,0 +1,23 @@
+.nav {
+  &__container {
+    width: 80%;
+  }
+}
+
+.content {
+  &__container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.work {
+  &__container {
+    width: 80%;
+    margin: auto;
+  }
+
+  &__proyects {
+    grid-template-columns: repeat(3, auto);
+  }
+}

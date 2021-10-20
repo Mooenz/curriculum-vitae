@@ -1,0 +1,19 @@
+.nav__container {
+  width: 80%;
+}
+
+.content__container {
+  width: 80%;
+  margin: auto;
+}
+
+.work__container {
+  width: 80%;
+  margin: auto;
+}
+
+.work__proyects {
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+}
+/*# sourceMappingURL=desktop.css.map */

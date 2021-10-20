@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,eAAY,CAAC;EACX,KAAK,EAAE,GAAG;CACX;;AAIA,AAAD,mBAAY,CAAC;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACb;;AAIA,AAAD,gBAAY,CAAC;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACb;;AAEA,AAAD,eAAW,CAAC;EACV,qBAAqB,EAAE,eAAe;CACvC",
+    "sources": [
+        "desktop.scss"
+    ],
+    "names": [],
+    "file": "desktop.css"
+}
