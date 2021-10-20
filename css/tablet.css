@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=tablet.css.map */
+.content__container {
+  -ms-grid-columns: 30% 60%;
+      grid-template-columns: 30% 60%;
+  gap: 30px;
+}
+
+.content__left {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin: 0;
+}
+
+.content__left .social-media .fab,
+.content__left .social-media .fas {
+  font-size: 2.5rem;
+}
+
+.content__right {
+  text-align: start;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.content__right h1 {
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+}
+
+.work__proyects {
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+}
+
+.space-lateral {
+  padding: 0 48px;
+}
+/*# sourceMappingURL=tablet.css.map */
