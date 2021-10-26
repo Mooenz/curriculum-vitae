@@ -15,11 +15,6 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="css/mobile-large.css"
-      media="(min-width:415px)"
-    />
     <link rel="stylesheet" href="css/tablet.css" media="(min-width:790px)" />
     <link rel="stylesheet" href="css/desktop.css" media="(min-width:1290px)" />
     <link
@@ -40,30 +35,35 @@
             <i class="nav-burger fas fa-bars"></i>
             <ul class="nav__list-links">
               <li>
-                <a href="#home" title="Inicio">Sobre mí</a>
+                <a href="#about" title="Inicio">Sobre mí</a>
               </li>
               <li>
                 <a href="#work" title="Portafolio">Portafolio</a>
               </li>
               <li>
-                <a href="#work" title="Portafolio">Portafolio</a>
+                <a href="mailto:joss92821@hotmail.com" title="Portafolio"
+                  >Contactame</a
+                >
               </li>
             </ul>
           </div>
         </nav>
       </div>
 
-      <div class="content" id="home">
-        <p>Mi nombre es</p>
-        <h1>Manuel Montaño</h1>
-        <p>Soy Frontend Developer</p>
+      <div class="header" id="home">
+        <div class="header__container space-lateral">
+          <p>Mi nombre es</p>
+          <h1>Manuel Montaño Saenz</h1>
+          <p>Soy Maqueteador Web</p>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="about-me">
-        <div class="content__container space-lateral">
-          <div class="content__left">
+      <section class="about-me" id="about">
+        <!-- <img class="img-wave-up" src="./assets/image/svg/wave-down-grey.svg" alt="wave" /> -->
+        <div class="about-me__container space-lateral">
+          <div class="about-me__left">
             <img
               src="assets/image/png/jose-manuel.png"
               height="150px"
@@ -95,7 +95,8 @@
             </div>
           </div>
 
-          <div class="content__right">
+          <div class="about-me__right">
+            <h2>Sobre mí</h2>
             <p>
               <b>Soy maqueteador web</b> en constante aprendizaje para lograr un
               puesto como Front-end.
@@ -106,8 +107,8 @@
             </p>
           </div>
         </div>
+        <!-- <img class="img-wave-down" src="./assets/image/svg/wave-up.svg" alt="wave" /> -->
       </section>
-
       <section class="work" id="work">
         <div class="work__container space-lateral">
           <div class="work__content">
@@ -137,34 +138,18 @@
                   numeros telefonicos, y por ultimo tener un
                 </p>
                 <div class="card__lang">
-                  <i title="HTML" class="html fab fa-html5"></i>
-                  <i title="CSS" class="fab fa-css3-alt"></i>
-                  <i title="BOOTSTRAP" class="fab fa-bootstrap"></i>
-                </div>
-              </div>
-            </article>
-
-            <article class="card">
-              <a
-                href="https://mooenz.github.io/proyecto-batatabit/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <div class="card__img">
-                  <div class="img batatabit"></div>
-                </div>
-              </a>
-              <div class="card__content">
-                <p>Curso</p>
-                <h3>Proyect Batatabit</h3>
-                <p>
-                  Es el resultado de un Curso llamado
-                  <b>Curso de Responsive Design: Maquetación Mobile First</b> y
-                  fue impartido por Diego De Granda gracias a Platzi.
-                </p>
-                <div class="card__lang">
-                  <i title="HTML" class="html fab fa-html5"></i>
-                  <i title="CSS" class="fab fa-css3-alt"></i>
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                  <div class="badge badge__bootstrap">
+                    <i title="BOOTSTRAP" class="fab fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                  </div>
                 </div>
               </div>
             </article>
@@ -196,10 +181,93 @@
                   Advanced.
                 </p>
                 <div class="card__lang">
-                  <i title="HTML" class="html fab fa-html5"></i>
-                  <i title="CSS" class="fab fa-css3-alt"></i>
-                  <i title="SASS" class="fab fa-sass"></i>
-                  <i title="JavaScript" class="fab fa-js-square"></i>
+                  <div title="HTML" class="badge badge__html">
+                    <i class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                  <div class="badge badge__sass">
+                    <i title="SASS" class="fab fa-sass"></i>
+                    <p>Sass</p>
+                  </div>
+                  <div class="badge badge__js">
+                    <i title="JavaScript" class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <a
+                href="https://mooenz.github.io/proyecto-batatabit/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img batatabit"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Curso</p>
+                <h3>Proyect Batatabit</h3>
+                <p>
+                  Es el resultado de un Curso llamado
+                  <b>Curso de Responsive Design: Maquetación Mobile First</b> y
+                  fue impartido por Diego De Granda gracias a Platzi.
+                </p>
+                <div class="card__lang">
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <a
+                href="https://mooenz.github.io/workshop-lazy/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img workshop-lazy"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Curso</p>
+                <h3>Workshop Lazy</h3>
+                <p>
+                  Este proyecto nacio apartir del
+                  <b>Curso de Manipulación del DOM</b> impartido por Platzi.
+                </p>
+                <div class="card__lang">
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__js">
+                    <i title="JavaScript" class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="badge badge__talwindcss">
+                    <svg width="30" height="18" fill="#16BDCA">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15 0c-4 0-6.5 2-7.5 6 1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C17.08 7.271 18.782 9 22.5 9c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C20.42 1.728 18.718 0 15 0zM7.5 9C3.5 9 1 11 0 15c1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C9.58 16.271 11.282 18 15 18c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C12.92 10.729 11.218 9 7.5 9z"
+                      ></path>
+                    </svg>
+                    <p>Talwindcss</p>
+                  </div>
                 </div>
               </div>
             </article>
@@ -222,39 +290,18 @@
                   <b>Curso de Manipulación del DOM</b> impartido por Platzi.
                 </p>
                 <div class="card__lang">
-                  <i title="HTML" class="html fab fa-html5"></i>
-                  <i title="CSS" class="fab fa-css3-alt"></i>
-                  <i title="JavaScript" class="fab fa-js-square"></i>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <a
-                href="https://mooenz.github.io/workshop-lazy/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <div class="card__img">
-                  <div class="img workshop-lazy"></div>
-                </div>
-              </a>
-              <div class="card__content">
-                <p>Curso</p>
-                <h3>Workshop Lazy</h3>
-                <p>
-                  Este proyecto nacio apartir del
-                  <b>Curso de Manipulación del DOM</b> impartido por Platzi.
-                </p>
-                <div class="card__lang">
-                  <i title="HTML" class="html fab fa-html5"></i>
-                  <svg width="30" height="18" fill="#16BDCA">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M15 0c-4 0-6.5 2-7.5 6 1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C17.08 7.271 18.782 9 22.5 9c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C20.42 1.728 18.718 0 15 0zM7.5 9C3.5 9 1 11 0 15c1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C9.58 16.271 11.282 18 15 18c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C12.92 10.729 11.218 9 7.5 9z"
-                    ></path>
-                  </svg>
-                  <i title="JavaScript" class="fab fa-js-square"></i>
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                  <div class="badge badge__js">
+                    <i title="JavaScript" class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
                 </div>
               </div>
             </article>
@@ -264,12 +311,16 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__content">
+      <div class="footer__content space-lateral">
+        <p>
+          Trabajemos juntos |
+          <a href="mailto:joss92821@hotmail.com"><b>Contáctame aquí</b></a>
+        </p>
         <p class="contenido-footer">
           Copyright © 1992-
           <span class="year-now"></span>
-          - Mooenz
         </p>
+        <p>Con 🖤 <b>Mooenz</b></p>
       </div>
     </footer>
 

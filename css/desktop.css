@@ -2,9 +2,14 @@
   width: 80%;
 }
 
-.content__container {
+.about-me__container {
   width: 80%;
   margin: auto;
+}
+
+.about-me__right h1 {
+  font-size: 5.5rem;
+  line-height: 5.5rem;
 }
 
 .work__container {
@@ -15,5 +20,10 @@
 .work__proyects {
   -ms-grid-columns: (auto)[3];
       grid-template-columns: repeat(3, auto);
+}
+
+.footer__content {
+  width: 80%;
+  margin: auto;
 }
 /*# sourceMappingURL=desktop.css.map */

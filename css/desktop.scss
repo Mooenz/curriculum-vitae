@@ -4,10 +4,17 @@
   }
 }
 
-.content {
+.about-me {
   &__container {
     width: 80%;
     margin: auto;
+  }
+
+  &__right {
+    h1 {
+      font-size: 5.5rem;
+      line-height: 5.5rem;
+    }
   }
 }
 
@@ -19,5 +26,12 @@
 
   &__proyects {
     grid-template-columns: repeat(3, auto);
+  }
+}
+
+.footer {
+  &__content {
+    width: 80%;
+    margin: auto;
   }
 }
