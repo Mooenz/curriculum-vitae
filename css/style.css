@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 13px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -18,7 +18,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--gray);
+  background: var(--red-cherry);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -271,7 +271,19 @@ a {
 }
 
 .work__proyects .card__img .audiservicios {
-  background: url(../assets/image/png/@udiservicios-300x300.png) center/cover no-repeat var(--withe);
+  background: url(../assets/image/png/@udiservicios.png) center/cover no-repeat var(--withe);
+}
+
+.work__proyects .card__img .batatabit {
+  background: url(../assets/image/png/batatabit.png) center/cover no-repeat var(--withe);
+}
+
+.work__proyects .card__img .reproductor-js {
+  background: url(../assets/image/png/reproductor-de-video.png) center/cover no-repeat var(--withe);
+}
+
+.work__proyects .card__img .workshop-lazy {
+  background: url(../assets/image/png/lazyloading.png) center/cover no-repeat var(--withe);
 }
 
 .work__proyects .card__content {

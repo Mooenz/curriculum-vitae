@@ -13,7 +13,7 @@
 
 // scroll
 ::-webkit-scrollbar {
-  width: 13px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -22,7 +22,7 @@
 
 // Handle
 ::-webkit-scrollbar-thumb {
-  background: var(--gray);
+  background: var(--red-cherry);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -243,8 +243,25 @@ a {
         }
 
         .audiservicios {
-          background: url(../assets/image/png/@udiservicios-300x300.png)
+          background: url(../assets/image/png/@udiservicios.png)
             center/cover no-repeat var(--withe);
+        }
+
+        .batatabit {
+          background: url(../assets/image/png/batatabit.png)
+            center/cover no-repeat var(--withe);
+        }
+
+        .frontend-portafolio {}
+
+        .reproductor-js {
+          background: url(../assets/image/png/reproductor-de-video.png)
+          center/cover no-repeat var(--withe);
+        }
+
+        .workshop-lazy {
+          background: url(../assets/image/png/lazyloading.png)
+          center/cover no-repeat var(--withe);
         }
       }
 
