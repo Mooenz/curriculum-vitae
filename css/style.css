@@ -204,7 +204,7 @@ a {
   place-items: center;
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-  margin: 60px 0;
+  margin: 100px 0;
   gap: 10px;
 }
 
@@ -278,7 +278,7 @@ a {
 
 .work {
   background-color: var(--black-light);
-  padding-top: 60px;
+  padding: 100px 0;
 }
 
 .work__container .work__content {

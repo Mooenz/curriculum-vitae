@@ -183,7 +183,7 @@ a {
     display: grid;
     place-items: center;
     grid-template-rows: repeat(2, 1fr);
-    margin: 60px 0;
+    margin: 100px 0;
     gap: 10px;
   }
 
@@ -253,7 +253,7 @@ a {
 // work
 .work {
   background-color: var(--black-light);
-  padding-top: 60px;
+  padding: 100px 0;
 
   &__container {
     // text-align: center;
