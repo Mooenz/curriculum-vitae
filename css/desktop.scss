@@ -4,10 +4,26 @@
   }
 }
 
+.header {
+  &__container {
+    height: 800px;
+
+    h1 {
+      font-size: 7rem;
+      line-height: 7.6rem;
+    }
+
+    p {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+    }
+  }
+}
+
 .about-me {
   &__container {
     width: 80%;
-    margin: auto;
+    margin: 60px auto;
   }
 
   &__right {

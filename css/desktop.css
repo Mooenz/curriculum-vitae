@@ -2,9 +2,23 @@
   width: 80%;
 }
 
+.header__container {
+  height: 800px;
+}
+
+.header__container h1 {
+  font-size: 7rem;
+  line-height: 7.6rem;
+}
+
+.header__container p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
 .about-me__container {
   width: 80%;
-  margin: auto;
+  margin: 60px auto;
 }
 
 .about-me__right h1 {
