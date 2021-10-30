@@ -355,6 +355,10 @@ a {
   background: url(../assets/image/png/lazyloading.png) center/cover no-repeat var(--withe);
 }
 
+.work__proyects .card__img .landing-page {
+  background: url(../assets/image/png/prueba-tecnica-landing-page.jpg) center/cover no-repeat var(--withe);
+}
+
 .work__proyects .card__content {
   padding: 40px 24px;
 }
@@ -388,7 +392,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 15px;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .badge {
@@ -404,37 +408,35 @@ a {
   gap: 5px;
   height: 40px;
   border-radius: 50px;
-  padding: 8px 25px;
+  padding: 0 15px;
 }
 
 .badge__html {
   background-color: rgba(227, 76, 38, 0.4);
-  border: 2px solid #e34c26;
 }
 
 .badge__css {
   background-color: rgba(37, 75, 228, 0.4);
-  border: 2px solid #264de4;
 }
 
 .badge__bootstrap {
   background-color: rgba(121, 82, 179, 0.4);
-  border: 2px solid #7952b3;
 }
 
 .badge__sass {
   background-color: rgba(205, 103, 153, 0.4);
-  border: 2px solid #cd6799;
 }
 
 .badge__js {
   background-color: rgba(240, 219, 79, 0.4);
-  border: 2px solid #f0db4f;
 }
 
 .badge__talwindcss {
   background-color: rgba(22, 190, 202, 0.4);
-  border: 1px solid #16BDCA;
+}
+
+.badge__talwindcss img {
+  height: 15px;
 }
 
 .badge p {
