@@ -302,6 +302,10 @@ a {
           height: 200px;
           background: var(--withe);
           border-radius: 10px 10px 0 0;
+
+          &:hover {
+            background-size: auto 150%;
+          }
         }
 
         .audiservicios {

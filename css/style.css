@@ -338,6 +338,10 @@ a {
   border-radius: 10px 10px 0 0;
 }
 
+.work__proyects .card__img .img:hover {
+  background-size: auto 150%;
+}
+
 .work__proyects .card__img .audiservicios {
   background: url(../assets/image/png/@udiservicios.png) center/cover no-repeat var(--withe);
 }
