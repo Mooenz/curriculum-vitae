@@ -1,10 +1,10 @@
 :root {
   // Colors
-  --black-intense: #151515;
-  --black: #202022;
-  --black-light: #2d2d2e;
-  --gray: #949495;
-  --withe: #f1f2f2;
+  --black-intense: #111111;
+  --black: #222222;
+  --black-light: #333333;
+  --gray: #999999;
+  --withe: #eeeeee;
   --red-cherry: #f53b57;
   // Fonts
   --font-poppins: 'Poppins', sans-serif;
@@ -36,7 +36,6 @@
   border: 0;
   font-family: var(--font-poppins);
   color: var(--withe);
-  // scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
@@ -44,6 +43,7 @@ html {
   background-color: var(--black);
   font-size: 62.5%;
   min-width: 320px;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -175,6 +175,7 @@ a {
 .about-me {
   position: relative;
   width: 100%;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,6 +303,12 @@ a {
           height: 200px;
           background: var(--withe);
           border-radius: 10px 10px 0 0;
+          transition-duration: 1s;
+
+          &:hover {
+            transform: scale(1.05);
+            transition-duration: 1s;
+          }
         }
 
         .audiservicios {
