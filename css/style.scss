@@ -306,8 +306,7 @@ a {
           transition-duration: 1s;
 
           &:hover {
-            transform: scale(1.05);
-            transition-duration: 1s;
+            background-size: auto 150%;
           }
         }
 

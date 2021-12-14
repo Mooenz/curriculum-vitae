@@ -343,10 +343,7 @@ a {
 }
 
 .work__proyects .card__img .img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  background-size: auto 150%;
 }
 
 .work__proyects .card__img .audiservicios {
