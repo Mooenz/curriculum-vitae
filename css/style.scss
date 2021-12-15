@@ -74,9 +74,11 @@ a {
     .logo {
       font-size: 2.2rem;
       font-weight: 800;
+      transition-duration: 1s;
 
       &:hover {
         color: var(--red-cherry);
+        transition-duration: 1s;
       }
     }
 
@@ -114,9 +116,11 @@ a {
         text-align: end;
 
         li a {
+          transition-duration: 1s;
           &:hover {
             color: var(--red-cherry);
             text-decoration: underline;
+            transition-duration: 1s;
           }
         }
 
@@ -144,7 +148,7 @@ a {
 // header
 .header {
   &__container {
-    height: 600px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,11 +210,13 @@ a {
       .fab,
       .fas {
         font-size: 2rem;
+        transition-duration: 1s;
       }
 
       .fab:hover,
       .fas:hover {
         color: var(--red-cherry);
+        transition-duration: 1s;
       }
     }
   }
@@ -289,7 +295,6 @@ a {
     grid-template-columns: auto;
     place-content: center;
     gap: 30px;
-    padding-bottom: 60px;
 
     .card {
       background-color: var(--black);
@@ -298,15 +303,20 @@ a {
       max-width: 370px;
 
       &__img {
+        display: block;
+        overflow: hidden;
+        border-radius: 10px 10px 0 0;
+
         .img {
-          min-width: 270px;
+          width: 100%;
+          object-fit: cover;
           height: 200px;
           background: var(--withe);
           border-radius: 10px 10px 0 0;
           transition-duration: 1s;
 
           &:hover {
-            background-size: auto 150%;
+            transform: scale(1.05);
           }
         }
 

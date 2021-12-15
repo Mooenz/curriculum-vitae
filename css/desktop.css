@@ -1,9 +1,5 @@
 .nav__container {
-  width: 80%;
-}
-
-.header__container {
-  height: 800px;
+  width: 1200px;
 }
 
 .header__container h1 {
@@ -17,8 +13,7 @@
 }
 
 .about-me__container {
-  width: 80%;
-  margin: auto;
+  width: 1200px;
 }
 
 .about-me__right h1 {
@@ -27,7 +22,7 @@
 }
 
 .work__container {
-  width: 80%;
+  width: 1200px;
   margin: auto;
 }
 
@@ -37,7 +32,7 @@
 }
 
 .footer__content {
-  width: 80%;
+  width: 1200px;
   margin: auto;
 }
 /*# sourceMappingURL=desktop.css.map */

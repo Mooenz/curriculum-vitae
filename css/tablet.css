@@ -34,10 +34,6 @@
   margin: 0;
 }
 
-.header__container {
-  height: 700px;
-}
-
 .header__container h1 {
   font-size: 5rem;
   line-height: 6.6rem;

@@ -77,10 +77,14 @@ a {
 .nav__container .logo {
   font-size: 2.2rem;
   font-weight: 800;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .nav__container .logo:hover {
   color: var(--red-cherry);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .nav__container .menu {
@@ -129,9 +133,16 @@ a {
   text-align: end;
 }
 
+.nav__container .menu .nav__list-links li a {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .nav__container .menu .nav__list-links li a:hover {
   color: var(--red-cherry);
   text-decoration: underline;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .nav__container .menu .nav__list-links li:nth-child(3) {
@@ -151,7 +162,7 @@ a {
 }
 
 .header__container {
-  height: 600px;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,11 +247,15 @@ a {
 .about-me__left .social-media .fab,
 .about-me__left .social-media .fas {
   font-size: 2rem;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .about-me__left .social-media .fab:hover,
 .about-me__left .social-media .fas:hover {
   color: var(--red-cherry);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .about-me__right {
@@ -322,7 +337,6 @@ a {
       grid-template-columns: auto;
   place-content: center;
   gap: 30px;
-  padding-bottom: 60px;
 }
 
 .work__proyects .card {
@@ -333,8 +347,16 @@ a {
   max-width: 370px;
 }
 
+.work__proyects .card__img {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
 .work__proyects .card__img .img {
-  min-width: 270px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 200px;
   background: var(--withe);
   border-radius: 10px 10px 0 0;
@@ -343,7 +365,8 @@ a {
 }
 
 .work__proyects .card__img .img:hover {
-  background-size: auto 150%;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .work__proyects .card__img .audiservicios {
