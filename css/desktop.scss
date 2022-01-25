@@ -1,6 +1,7 @@
 .nav {
   &__container {
     width: 1200px;
+    padding: 0;
   }
 }
 
@@ -21,7 +22,8 @@
 .about-me {
   &__container {
     width: 1200px;
-    // margin: auto;
+    margin: auto;
+    padding: 0;
   }
 
   &__right {
@@ -36,6 +38,7 @@
   &__container {
     width: 1200px;
     margin: auto;
+    padding: 0;
   }
 
   &__proyects {
@@ -47,5 +50,6 @@
   &__content {
     width: 1200px;
     margin: auto;
+    padding: 0;
   }
 }
