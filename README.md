@@ -14,6 +14,6 @@ Hi every one, this is my Cv or web site. I appreciate your comments I hope to re
 
 - Linkedin [Mooenz](https://www.linkedin.com/in/mooenz/)
 
-## **Licence** 🛸
+## **License** 🛸
 
 This project is [MIT](https://github.com/Mooenz/curriculum-vitae/blob/main/LICENSE) licensed.
