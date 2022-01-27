@@ -1,0 +1,55 @@
+.nav {
+  &__container {
+    width: 1200px;
+    padding: 0;
+  }
+}
+
+.header {
+  &__container {
+    h1 {
+      font-size: 7rem;
+      line-height: 7.6rem;
+    }
+
+    p {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+    }
+  }
+}
+
+.about-me {
+  &__container {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+  }
+
+  &__right {
+    h1 {
+      font-size: 5.5rem;
+      line-height: 5.5rem;
+    }
+  }
+}
+
+.work {
+  &__container {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+  }
+
+  &__proyects {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+.footer {
+  &__content {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+  }
+}

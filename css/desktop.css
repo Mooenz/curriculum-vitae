@@ -1,0 +1,43 @@
+.nav__container {
+  width: 1200px;
+  padding: 0;
+}
+
+.header__container h1 {
+  font-size: 7rem;
+  line-height: 7.6rem;
+}
+
+.header__container p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.about-me__container {
+  width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+.about-me__right h1 {
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+}
+
+.work__container {
+  width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+.work__proyects {
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+}
+
+.footer__content {
+  width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+/*# sourceMappingURL=desktop.css.map */

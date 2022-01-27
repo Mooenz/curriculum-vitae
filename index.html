@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/image/png/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width:790px)" />
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width:1270px)" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Curriculum vitae - Mooenz</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav">
+        <nav class="nav__container space-lateral">
+          <span><a class="logo" href="/curriculum-vitae">Mooenz</a></span>
+          <div class="menu">
+            <i class="nav-burger fas fa-bars"></i>
+            <ul class="nav__list-links">
+              <li>
+                <a href="#about" title="Inicio">Sobre mí</a>
+              </li>
+              <li>
+                <a href="#work" title="Portafolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="mailto:joss92821@hotmail.com" title="Portafolio"
+                  >Contactame</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header" id="home">
+        <div class="header__container space-lateral">
+          <p>Mi nombre es</p>
+          <h1>Manuel Montaño Saenz</h1>
+          <p>
+            Soy Maqueteador Web y futuro <br />
+            Frontend.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-me" id="about">
+        <!-- <img class="img-wave-up" src="./assets/image/svg/wave-down-grey.svg" alt="wave" /> -->
+        <div class="about-me__container space-lateral">
+          <div class="about-me__left">
+            <img
+              src="assets/image/png/jose-manuel.png"
+              height="150px"
+              width="150px"
+              alt="foto de Jose Manuel Montaño Saenz"
+            />
+            <div class="social-media">
+              <a
+                href="https://www.linkedin.com/in/mooenz"
+                title="Linkedin"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://twitter.com/MooenzDev"
+                title="Twitter"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://github.com/Mooenz"
+                title="Github"
+                target="_blank"
+                rel="noreferrer noopener"
+                ><i class="fab fa-github-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="about-me__right">
+            <h2>Sobre mí</h2>
+            <p>
+              <b>Soy maqueteador web</b> en constante aprendizaje para lograr un
+              puesto como Front-end.
+            </p>
+            <p>
+              Me interesan tecnologias como React o Vue.js. Busco un lugar ameno
+              donde me permitan seguir creciendo como Developer.
+            </p>
+          </div>
+        </div>
+        <!-- <img class="img-wave-down" src="./assets/image/svg/wave-up.svg" alt="wave" /> -->
+      </section>
+      <section class="work" id="work">
+        <div class="work__container space-lateral">
+          <div class="work__content">
+            <h2>Portafolio</h2>
+            <p>
+              Sean bienvenidos y espero que sea de su agrado todos mis
+              proyectos.
+            </p>
+          </div>
+          <div class="work__proyects">
+            <article class="card">
+              <a
+                href="https://www.audiservicios.com.co/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img audiservicios"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Cliente</p>
+                <h3>@udiservicios s.a.s</h3>
+                <p>
+                  Esta pagina web fue desarrollada con el fin de presentar la
+                  empresa, canalizar clientes por medio de un formulario y
+                  numeros telefonicos, y por ultimo tener un
+                </p>
+                <div class="card__lang">
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                  <div class="badge badge__bootstrap">
+                    <i title="BOOTSTRAP" class="fab fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <a
+                href="https://mooenz.github.io/frontend-portafolio/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img frontend-portafolio"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Proyecto Personal</p>
+                <h3>Portafolio Front-end</h3>
+                <p>
+                  Este es un buscador que recopila todos los retros concluidos del sitio
+                  <b
+                    ><a
+                      href="https://www.frontendmentor.io/profile/Mooenz"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      >Frontend Mentor.</a
+                    ></b
+                  >
+                  Y estan clasificados por Newbie y Junior.
+                </p>
+                <div class="card__lang">
+                  <div title="HTML" class="badge badge__html">
+                    <i class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                  <div class="badge badge__sass">
+                    <i title="SASS" class="fab fa-sass"></i>
+                    <p>Sass</p>
+                  </div>
+                  <div class="badge badge__js">
+                    <i title="JavaScript" class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <a
+                href="https://mooenz.github.io/proyecto-batatabit/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img batatabit"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Curso</p>
+                <h3>Proyect Batatabit</h3>
+                <p>
+                  Es el resultado de un Curso llamado
+                  <b>Curso de Responsive Design: Maquetación Mobile First</b> y
+                  fue impartido por Diego De Granda gracias a Platzi.
+                </p>
+                <div class="card__lang">
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <a
+                href="https://mooenz.github.io/workshop-lazy/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img workshop-lazy"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Curso</p>
+                <h3>Workshop Lazy</h3>
+                <p>
+                  Este proyecto nacio apartir del
+                  <b>Curso de Manipulación del DOM</b> impartido por Platzi.
+                </p>
+                <div class="card__lang">
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__js">
+                    <i title="JavaScript" class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="badge badge__talwindcss">
+                    <img src="./assets/image/svg/tailwind-css.svg" alt="" />
+                    <p>Talwindcss</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <a
+                href="https://mooenz.github.io/reproductor-de-video-js/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img reproductor-js"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Curso</p>
+                <h3>Reproductor de Video</h3>
+                <p>
+                  Este proyecto nacio apartir del
+                  <b>Curso de Manipulación del DOM</b> impartido por Platzi.
+                </p>
+                <div class="card__lang">
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__css">
+                    <i title="CSS" class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                  </div>
+                  <div class="badge badge__js">
+                    <i title="JavaScript" class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <a
+                href="https://mooenz.github.io/prueba-tecnica-landin-page/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div class="card__img">
+                  <div class="img landing-page"></div>
+                </div>
+              </a>
+              <div class="card__content">
+                <p>Proyecto personal</p>
+                <h3>Prueba Tecnica Landing Page</h3>
+                <p>Este proyecto es el resultado de una prpoueba tecnica.</p>
+                <div class="card__lang">
+                  <div class="badge badge__html">
+                    <i title="HTML" class="html fab fa-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                  <div class="badge badge__sass">
+                    <i title="SASS" class="fab fa-sass"></i>
+                    <p>Sass</p>
+                  </div>
+                  <div class="badge badge__js">
+                    <i title="JavaScript" class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content space-lateral">
+        <p>
+          Trabajemos juntos |
+          <a href="mailto:joss92821@hotmail.com"><b>Contáctame aquí</b></a>
+        </p>
+        <p class="contenido-footer">
+          Copyright © 1992-
+          <span class="year-now"></span>
+        </p>
+        <p>Con 🖤 Mooenz</p>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
