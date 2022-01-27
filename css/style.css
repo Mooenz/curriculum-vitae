@@ -216,7 +216,7 @@ a {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  -ms-grid-rows: (1fr)[2];
+  -ms-grid-rows: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
   gap: 10px;
 }
